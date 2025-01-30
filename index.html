@@ -1,15 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet-Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a665c00476.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sora {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+
+        .adlam-display {
+            font-family: "ADLaM Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Header-Section -->
-    <header></header>
+    <header>
+        <!-- Navbar -->
+        <nav class="mx-auto bg-[#FFF9F4] sora text-[#111111]">
+            <div class="navbar container mx-auto">
+                <div class="navbar-start">
+                    <img class="ps-3" src="assets/logo-header.png" alt="">
+                    <h1 class="hidden lg:block">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex space-x-5">
+                    <div class="notification"><i class="fa-regular fa-bell"></i></div>
+                    <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="btn-container flex space-x-1">
+                        <button class="btn btn-outline btn-sm px-5 border-[#FFDC26] font-normal">LogIn</button>
+                        <button class="btn bg-[#FFDC26] btn-sm px-5 font-normal">Register</button>
+                    </div>
+                </div>
+                <div class="navbar-end lg:hidden">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost ">
+                            <i class="fa-solid fa-bars text-xl"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mr-0 mt-3 right-3 w-56 p-2 shadow">
+                            <li><a>Find a pet</a></li>
+                            <li><a>Breeds</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li>
+                                <div class="notification"><i class="fa-regular fa-bell"></i>
+                                    <p>Notification</p>
+                                </div>
+                                <div class="search"><i class="fa-solid fa-magnifying-glass"></i>
+                                    <p>Search</p>
+                                </div>
+                            </li>
+                            <li class="btn-container flex-row space-x-1">
+                                <button class="btn btn-outline btn-sm px-5 border-[#FFDC26] font-normal">LogIn</button>
+                                <button class="btn bg-[#FFDC26] btn-sm px-5 font-normal">Register</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- Main-Section -->
     <main></main>
     <!-- Footer-Section -->
