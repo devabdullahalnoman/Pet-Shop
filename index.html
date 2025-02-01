@@ -179,9 +179,8 @@
             <div class="trending-pets-content mx-5 lg:mx-20 xl:mx-40 py-12 lg:py-24 xl:py-36">
                 <h1 class="section-heading adlam-display text-[#111111] text-2xl lg:text-3xl mb-8 md:mb-14">Trending Pet
                     Products</h1>
-                <div
-                    class="trending-card-container grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 xl:grid-rows-1 gap-5">
-                    <div class="card bg-[#F9DF8A] pt-12 px-8 space-y-5 col-span-2 md:col-span-3 xl:col-span-2">
+                <div class="trending-card-container flex flex-col lg:flex-row gap-5">
+                    <div class="card bg-[#F9DF8A] pt-12 px-8 space-y-5">
                         <h1 class="card-title adlam-display text-2xl lg:text-3xl">T-Shirt for Dogs</h1>
                         <p class="card-subtitle sora text-[#585858] text-sm md:text-lg">Discover a world of treats,
                             toys, and <br> essentials
@@ -194,7 +193,7 @@
                             <img class="h-52 md:h-56" src="assets/cute-pet-mid.png" alt="">
                         </div>
                     </div>
-                    <div class="small-card-container grid grid-cols-2 col-span-2 md:grid-cols-3 md:col-span-3 gap-4">
+                    <div class="small-card-container flex-1 grid grid-cols-2 col-span-2 md:grid-cols-3 gap-4">
                         <div
                             class="card card-bordered border-[rgba(17,17,17,0.1)] flex flex-row items-center gap-3 bg-white h-24 md:h-28 ps-2 md:ps-4">
                             <div class="badge rounded-lg w-16 h-16 md:w-20 md:h-20 bg-[#FFF9F4]">
@@ -373,7 +372,38 @@
 
         <!-- Low-Price Section -->
 
-        <div class="mx-5 lg:mx-20 xl:mx-40 py-12 lg:py-24 xl:py-36">bedfgs</div>
+        <div class="mx-5 lg:mx-20 xl:mx-40 my-12 lg:my-24 xl:my-36">
+            <h1 class="section-heading adlam-display text-[#111111] text-2xl lg:text-3xl mb-8 md:mb-14">Everyday low
+                Price</h1>
+            <div class="low-price-card-container flex flex-col md:flex-row gap-5">
+                <div class="card bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] pt-10 lg:pt-0 ps-8 lg:ps-12 flex-grow">
+                    <h1 class="lg:hidden adlam-display text-xl lg:text-2xl text-[#111111]">Pet Grooming Mitt</h1>
+                    <div class="flex justify-between">
+                        <h1 class="block lg:hidden adlam-display text-4xl text-[#ffffff] pt-4 text-left">$7.99</h1>
+                        <div class="grow-info hidden lg:flex items-center justify-center">
+                            <div class="card-text-info space-y-3">
+                                <p class="sora text-[#111111] text-lg">Under Price</p>
+                                <h1 class="adlam-display text-[#111111] text-3xl">Pet Grooming Mitt <br><span
+                                        class="text-white text-2xl">(Easy Hair Removal)</span></h1>
+                                <h1 class="adlam-display text-[#111111] text-5xl">$7.99</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="assets/cute-dog-mid.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] pt-10 lg:pt-16 ps-8 lg:ps-12 flex-grow">
+                    <h1 class="adlam-display text-xl lg:text-2xl text-[#111111]">T-Shirt for Dogs</h1>
+                    <div class="flex justify-between">
+                        <h1 class="adlam-display text-4xl text-[#c4a81b] pt-4">$7.99</h1>
+                        <div>
+                            <img src="assets/cute-pet-mid.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- Footer-Section -->
     <footer></footer>
