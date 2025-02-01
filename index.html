@@ -25,6 +25,11 @@
             font-weight: 400;
             font-style: normal;
         }
+
+        ul .menu-compact {
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
 
@@ -107,7 +112,7 @@
 
     <!-- Main Section -->
 
-    <main>
+    <main class="mb-[400px] md:mb-80">
 
         <!-- Categories Section -->
 
@@ -404,9 +409,52 @@
                 </div>
             </div>
         </div>
+
     </main>
+
     <!-- Footer-Section -->
-    <footer></footer>
+
+    <footer class="bg-[#ffdb2680] relative">
+
+        <!-- News Section -->
+
+        <div
+            class="news card flex-col items-center md:gap-20 md:flex-row mx-5 lg:mx-20 xl:mx-40 mt-12 lg:mt-24 xl:mt-36 px-5 lg:px-24 py-5 lg:py-8 xl:py-10 bg-[#FFF9F4] absolute inset-x-0 bottom-64">
+            <div class="px-11 md:px-0">
+                <img src="assets/cute-pet-mid.png" alt="">
+            </div>
+            <div class="text-content-container text-center md:text-left mt-9 md:my-12">
+                <h1 class="adlam-display text-[#111111] text-3xl text-center md:text-left lg:text-4xl mb-3 lg:mb-6">Get
+                    Pawsome News!</h1>
+                <p class="sora text-[#111111] md:text-lg mb-4 lg:mb-8">Exclusive training tips, tricks, product deals
+                    and more.</p>
+                <input type="email" placeholder="Enter email..." class="input w-full max-w-md h-16 mb-8" />
+                <div>
+                    <button class="btn bg-[#FFDC26] px-8 text-lg xl:text-xl font-normal">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer-Content -->
+
+        <div class="sora pt-80">
+            <div>
+                <div class="flex items-center">
+                    <img src="assets/logo-footer.png" alt="">
+                    <h1>Browse Pets</h1>
+                </div>
+                <p class="md:w-[70%]">Discover a world of treats, toys, and essentials handpicked for your furry friends
+                </p>
+            </div>
+            <div class="w-40">
+                <ul class="text-left text-base xl:text-xl space-y-4">
+                    <li><a class="link-hover">Find a pet</a></li>
+                    <li><a class="link-hover">Breeds</a></li>
+                    <li><a class="link-hover">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
