@@ -112,7 +112,7 @@
 
     <!-- Main Section -->
 
-    <main class="mb-[400px] md:mb-80">
+    <main class="mb-[450px] md:mb-96">
 
         <!-- Categories Section -->
 
@@ -414,12 +414,12 @@
 
     <!-- Footer-Section -->
 
-    <footer class="bg-[#ffdb2680] relative">
+    <footer class="bg-[#ffdb2680] pb-12 md:pb-20 md:mt-64 relative">
 
         <!-- News Section -->
 
         <div
-            class="news card flex-col items-center md:gap-20 md:flex-row mx-5 lg:mx-20 xl:mx-40 mt-12 lg:mt-24 xl:mt-36 px-5 lg:px-24 py-5 lg:py-8 xl:py-10 bg-[#FFF9F4] absolute inset-x-0 bottom-64">
+            class="news card flex-col items-center md:gap-20 md:flex-row mx-5 lg:mx-20 xl:mx-40 mt-12 lg:mt-24 xl:mt-36 px-5 lg:px-24 py-5 lg:py-8 xl:py-10 bg-[#FFF9F4] absolute inset-x-0 bottom-[70%] md:bottom-[60%]">
             <div class="px-11 md:px-0">
                 <img src="assets/cute-pet-mid.png" alt="">
             </div>
@@ -437,21 +437,33 @@
 
         <!-- Footer-Content -->
 
-        <div class="sora pt-80">
-            <div>
-                <div class="flex items-center">
+        <div class="sora pt-80 md:flex justify-between px-5 lg:px-20 xl:px-40 items-end space-y-12">
+            <div class="space-y-5">
+                <div class="flex items-center gap-4">
                     <img src="assets/logo-footer.png" alt="">
-                    <h1>Browse Pets</h1>
+                    <h1 class="text-2xl">Browse Pets</h1>
                 </div>
-                <p class="md:w-[70%]">Discover a world of treats, toys, and essentials handpicked for your furry friends
+                <p class="text-[#111111b5] text-xl">Discover a world of treats, toys, and <br class="hidden lg:block">
+                    essentials handpicked for your furry <br class="hidden lg:block"> friends
                 </p>
             </div>
-            <div class="w-40">
-                <ul class="text-left text-base xl:text-xl space-y-4">
+            <div>
+                <ul class="text-left text-xl space-y-6 md:space-y-8">
                     <li><a class="link-hover">Find a pet</a></li>
                     <li><a class="link-hover">Breeds</a></li>
                     <li><a class="link-hover">Contact Us</a></li>
                 </ul>
+            </div>
+            <div>
+                <h1>Follow Us</h1>
+                <div>
+                    <ul class="flex text-3xl gap-3 mt-3">
+                        <li><a href="" class="cursor-pointer"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="" class="cursor-pointer"><i class="fa-brands fa-instagram"></i></i></a></li>
+                        <li><a href="" class="cursor-pointer"><i class="fa-brands fa-linkedin"></i></i></a></li>
+                        <li><a href="" class="cursor-pointer"><i class="fa-brands fa-youtube"></i></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
